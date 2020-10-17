@@ -1,0 +1,175 @@
+body{
+  background: black;
+}
+.Account{
+margin-top:2%;
+float: center;
+margin-left:30%;
+margin-right: 25%;
+background: white;
+border-radius: 20px;
+padding-bottom: 15px;
+
+}
+.opt{
+  height:5vh;
+}
+.opt .Icon_image img{
+  position: relative;
+  height: 646px;
+  width:255px;
+  float:left;
+  border-radius: 20px;
+  margin-top:-37px;
+  opacity:0.8;
+}
+.opt .si_button{
+  border:2px solid lightblue;
+  border-radius: 30px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color:lightblue;
+  margin-left: 42%;
+  padding:5px;
+}
+
+.sighupform{
+  padding-left: 280px;
+  color:gray;
+}
+.label{
+  color: white;
+  font-size:20px;
+}
+.admin{
+  background:linear-gradient(90deg, rgba(2,0,36,1) 31%, rgba(21,227,126,1) 59%, rgba(53,158,169,1) 89%);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+.Owner{
+  background:#15e37e;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+
+}
+.Guest{
+  background:#15e37e;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+
+}
+
+.admin:hover{
+  border:none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.Owner:hover{
+  background:linear-gradient(90deg, rgba(2,0,36,1) 31%, rgba(21,227,126,1) 59%, rgba(53,158,169,1) 89%);
+  border:none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.Guest:hover{
+  background:linear-gradient(90deg, rgba(2,0,36,1) 31%, rgba(21,227,126,1) 59%, rgba(53,158,169,1) 89%);
+  border:none;
+  border-radius: 30px;
+  cursor: pointer;
+
+}
+
+
+input[type=text],input[type=password],input[type=email],input[type=date]{
+  position: relative;
+  box-sizing: border-box;
+  outline:none;
+  border:none;
+  width:90%;
+  border-bottom: 1px solid lightblue;
+  font-family: monospace;
+}
+input[type=date]{
+  position: relative;
+  color:gray;
+}
+
+input[type=submit]{
+  position: relative;
+  width:100px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(21,227,126,1) 50%, rgba(53,169,163,1) 93%);
+  color:white;
+  font-size: 15px;
+  outline:none;
+  border:none;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+  background:linear-gradient(90deg, rgba(21,227,126,1) 5%, rgba(53,158,169,1) 51%, rgba(2,0,36,1) 93%);
+}
+label{
+  font-family: monospace;
+}
+
+b{
+  cursor: pointer;
+}
+.login{
+  color: green;
+  font-size: 15px;
+  font-family: monospace;
+  cursor:pointer;
+  margin-left: 40%;
+}
+.login:hover{
+  color: darkgreen;
+  font-size: 18px;
+}
+.si_back a{
+  font-family:monospace;
+  font-size:15px;
+  color:green;
+  margin-right: 20%;
+  opacity: 0;
+  text-decoration: none;
+
+}
+.si_back a:hover{
+  color: darkgreen;
+  font-size: 18px;
+  cursor:pointer;
+}
+.loginbtn{
+  opacity: 0;
+}
+
+@media screen and (max-width:768px){
+
+  body{
+    background: #ffffff;
+  }
+  .Account{
+    margin-left:0px;
+    margin-right:0px;
+    position:left;
+  }
+  .opt{
+    position: left;
+
+  }
+  .Account .opt .Icon_image{
+    display: none;
+
+  }
+  .sighupform{
+    padding-left: 20px;
+    margin-bottom: -150px;
+    color:gray;
+  }
+
+
+}

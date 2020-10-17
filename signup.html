@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="css/Account.css">
+  </head>
+  <body>
+    <div class="Account">
+      <div class="opt">
+        <div class="si_button"><label1 for="SignUp">SignUp</label1></div>
+        <div class="Icon_image">
+          <img src="image/Img2.jpg" alt="">
+        </div>
+      </div>
+      <form class="sighupform" action="" method="post">
+        <h3>I am</h3>
+        <span class="label admin">Admin</span>&nbsp<span class="label Owner">Owner</span>&nbsp<span class="label Guest">Guest</span><br><br>
+        <input type="text" name="First_name" placeholder="First Name" class="fname"><br><br>
+        <input type="text" name="Middle_name" placeholder="Middle Name" class="mname"><br><br>
+        <input type="text" name="Last_name" placeholder="Last Name" class="lname"><br><br>
+        <label for="Gender" class="gender">Gender :</label><br>
+        <input type="radio" name="Gender" value="Male"  class="male"><label for="Male" class="Male">Male</label>
+        <input type="radio" name="Gender" value="Female" class="female"><label for="female" class="Female">Female</label>
+        <input type="radio" name="Gender" value="Other" class="other"><label for="other" class="Other">Other</label><br><br>
+        <input type="email" name="email" placeholder="E-mail" class="Email"><br><br>
+        <input type="text" name="mobile_number" placeholder="Mobile No" class="mobile_number"><br><br>
+        <input type="date" name="Birth_date" placeholder="Birth Date" class="Birth_date"><br><br>
+        <input type="text" name="Adhar no" placeholder="Adhar No" class="Adhar"><br><br>
+        <input type="password" name="password1" placeholder="New Password" class="pwd1"><br><br>
+        <input type="password" name="password2" placeholder="Conform Password" class="pwd2">
+
+        <p class="tc"><input type="checkbox" name="TC" value="T&C"><small>Here by I am satisfy with all term and conddititons.</small><small><b>T&C.</b></small></p>
+
+        <input type="submit" name="SignUp" value="SignUp" class="s_up"><span class="login" onclick="login()">Login -></span><br>
+        <input type="submit" name="login" value="login" class="loginbtn"><a href="#"></a></input><br>
+        <span  class="si_back"><a href="signup.html"><- SignUp </a></span>
+      </form>
+    </div>
+
+    <script src="js/account.js" type="text/javascript"></script>
+
+    </script>
+  </body>
+</html>
